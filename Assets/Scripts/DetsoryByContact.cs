@@ -30,7 +30,7 @@ public class DetsoryByContact : MonoBehaviour
 	}
 	
 	/// <summary>
-	/// Raises the trigger enter event.
+	/// Handles the trigger enter event.
 	/// </summary>
 	/// <param name="otherCollider">Other collider.</param>
 	private void OnTriggerEnter (Collider otherCollider)

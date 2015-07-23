@@ -9,7 +9,7 @@ using System.Collections;
 public class BoundaryController : MonoBehaviour
 {
 	/// <summary>
-	/// Raises the trigger exit event.
+	/// Handles the trigger exit event.
 	/// </summary>
 	/// <param name="otherCollider">Other collider.</param>
 	private void OnTriggerExit (Collider otherCollider)

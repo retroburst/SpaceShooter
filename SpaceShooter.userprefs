@@ -1,6 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DetsoryByContact.cs">
+    <Files>
+      <File FileName="Assets/Scripts/BoundaryController.cs" Line="12" Column="13" />
+      <File FileName="Assets/Scripts/DetsoryByContact.cs" Line="33" Column="13" />
+    </Files>
     <Pads>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
