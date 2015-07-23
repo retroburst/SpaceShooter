@@ -1,12 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Mover : MonoBehaviour {
+/// <summary>
+/// Mover. Responsible for moving
+/// rigid bodies based on speed.
+/// </summary>
+public class Mover : MonoBehaviour
+{
 	private Rigidbody rb = null;
 	public float speed = 1.0f;
 
-	// Use this for initialization
-	void Start () {
+	/// <summary>
+	/// Start this instance.
+	/// </summary>
+	private void Start ()
+	{
 		rb = GetComponent<Rigidbody> ();
 		rb.velocity = transform.forward * speed;
 	}

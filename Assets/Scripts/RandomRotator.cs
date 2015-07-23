@@ -1,19 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RandomRotator : MonoBehaviour {
+/// <summary>
+/// Random rotator.
+/// Used for randomly rotating 
+/// various game object e.g. Asteroids
+/// </summary>
+public class RandomRotator : MonoBehaviour
+{
 	private Rigidbody rb = null;
 	public float tumble = 1.0f;
 
-	// Use this for initialization
-	void Start () {
+	/// <summary>
+	/// Start this instance.
+	/// </summary>
+	private void Start ()
+	{
 		rb = GetComponent<Rigidbody> ();
 		rb.angularVelocity = Random.insideUnitSphere * tumble;
-
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

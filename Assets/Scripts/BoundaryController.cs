@@ -1,23 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BoundaryController : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
-	void OnTriggerExit(Collider otherCollider){
-		if(otherCollider.transform.parent != null){
+/// <summary>
+/// Boundary controller.
+/// Responsible for destroying game objects
+/// that go passed the boundary.
+/// </summary>
+public class BoundaryController : MonoBehaviour
+{
+	/// <summary>
+	/// Raises the trigger exit event.
+	/// </summary>
+	/// <param name="otherCollider">Other collider.</param>
+	private void OnTriggerExit (Collider otherCollider)
+	{
+		if (otherCollider.transform.parent != null) {
 			Destroy (otherCollider.transform.parent.gameObject);
-			return;
+		} else {
+			Destroy (otherCollider.gameObject);
 		}
-		Destroy (otherCollider.gameObject);
 	}
+	
 }
