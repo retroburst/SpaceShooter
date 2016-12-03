@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DetsoryByContact.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/BoundaryController.cs" Line="12" Column="13" />
-      <File FileName="Assets/Scripts/DetsoryByContact.cs" Line="33" Column="13" />
+      <File FileName="Assets/Scripts/BoundaryController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DetsoryByContact.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="58" Column="15" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
